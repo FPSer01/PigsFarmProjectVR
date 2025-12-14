@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460a77794a0430444915225da2ef9405, type: 3}
+  m_Name: Leptospirosis
+  m_EditorClassIdentifier: Assembly-CSharp::IllnessData
+  illnessName: "\u041B\u0435\u043F\u0442\u043E\u0441\u043F\u0438\u0440\u043E\u0437"
+  description: "\u0421\u0438\u043C\u043F\u0442\u043E\u043C\u044B:\n - \u041B\u0438\u0445\u043E\u0440\u0430\u0434\u043A\u0430.\n
+    - \u0416\u0435\u043B\u0442\u0443\u0445\u0430.\n - \u041A\u0440\u043E\u0432\u043E\u0438\u0437\u043B\u0438\u044F\u043D\u0438\u044F.\n
+    - \u041F\u043E\u0447\u0435\u0447\u043D\u0430\u044F \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.\n
+    - \u0422\u0435\u043C\u043F\u0435\u0440\u0430\u0442\u0443\u0440\u0430 40,5-41,5\u0421.\n\n\u0412\u0438\u0434
+    \u043A\u043E\u0436\u043D\u044B\u0445 \u043F\u043E\u043A\u0440\u043E\u0432\u043E\u0432:\n\u0416\u0435\u043B\u0442\u0443\u0448\u043D\u044B\u0439
+    \u043E\u0442\u0442\u0435\u043D\u043E\u043A \u043A\u043E\u0436\u0438, \u043A\u0440\u043E\u0432\u043E\u0438\u0437\u043B\u0438\u044F\u043D\u0438\u044F,
+    \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u044B \u044F\u0437\u0432\u044B \u0438
+    \u0432\u043E\u0441\u043F\u0430\u043B\u0435\u043D\u0438\u044F."
+  images:
+  - {fileID: 21300000, guid: f46af10845d663b45b82e284cdeeb1b8, type: 3}
+  - {fileID: 21300000, guid: 9f717264b95f6824a92ff0ecc0ce0ed9, type: 3}
+  - {fileID: 21300000, guid: 43940bb29bb0f4245b6637ff0629403b, type: 3}
+  minTemperature: 40.5
+  maxTemperature: 41.5
+  behaviourType: 0
+  illnessMaterial: {fileID: 2100000, guid: 86d4fd85e442c6f4a809e55af51a5c89, type: 2}

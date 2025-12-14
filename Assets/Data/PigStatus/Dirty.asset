@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460a77794a0430444915225da2ef9405, type: 3}
+  m_Name: Dirty
+  m_EditorClassIdentifier: Assembly-CSharp::IllnessData
+  illnessName: "\u0417\u0430\u0433\u0440\u044F\u0437\u043D\u0435\u043D\u043D\u0430\u044F
+    \u0441\u0432\u0438\u043D\u044C\u044F"
+  description: "\u0421\u0438\u043C\u043F\u0442\u043E\u043C\u044B:\n - \u0413\u0440\u044F\u0437\u043D\u0430\u044F
+    \u0448\u0435\u0440\u0441\u0442\u044C.\n - \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u044B\u0435
+    \u043F\u0430\u0440\u0430\u0437\u0438\u0442\u044B.\n - \u0421\u043D\u0438\u0436\u0435\u043D\u0438\u0435
+    \u0430\u043F\u043F\u0435\u0442\u0438\u0442\u0430.\n - \u0422\u0435\u043C\u043F\u0435\u0440\u0430\u0442\u0443\u0440\u0430
+    38-40\u0421.\n\n\u0412\u0438\u0434 \u043A\u043E\u0436\u043D\u044B\u0445 \u043F\u043E\u043A\u0440\u043E\u0432\u043E\u0432:\n\u0413\u0440\u044F\u0437\u043D\u0430\u044F,
+    \u0437\u0430\u0441\u0430\u043B\u0435\u043D\u043D\u0430\u044F \u043A\u043E\u0436\u0430,
+    \u0431\u0435\u0437 \u0432\u044B\u0441\u044B\u043F\u0430\u043D\u0438\u0439 \u0438
+    \u044F\u0437\u0432."
+  images:
+  - {fileID: 21300000, guid: 4ac9cffd493c0ab43a9f3dd34a380acf, type: 3}
+  - {fileID: 21300000, guid: 7d9caf31693739f488cb1e7ca19942d6, type: 3}
+  - {fileID: 21300000, guid: 3680c7f7193844c4b998d759480acb81, type: 3}
+  minTemperature: 38
+  maxTemperature: 40
+  behaviourType: 0
+  illnessMaterial: {fileID: 2100000, guid: 60e4fe59d5ba5c74b9777bae8c0ee8c0, type: 2}
